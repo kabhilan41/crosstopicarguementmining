@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Result</title>
+      <style>
+          body
+          {
+          background-color: #85FFBD;
+          background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+          background-repeat: no-repeat;
+          background-size:cover;
+          background-attachment: Fixed;
+          height:100%;
+        }
+          table, th, td 
+          {border:1px solid black;}
+          th,td
+          {
+                padding-left:20px;
+                padding-right:20px;
+          }
+          table
+          {
+                margin-left: 110px;
+                margin-top: 70px;
+          }
+      </style>  
+    </head>
+<body class="background">
+    <h1 >Argument analysis to probe vaccine debate</h1>
+    
+    <form method=post enctype=multipart/form-data>
+      <div style="margin-left: 10px;">
+      <input type=file name=file style="margin-right: 30px;" class="btn btn-small waves-effect waves-light  light-blue lighten-1">
+      <input type=submit value=Upload class="btn btn-small waves-effect waves-light purple lighten-1">
+       </div>   
+ </form>	
+
+
+  
+
+
+	<table>
+	<tr><th>Stance</th><th>Precision</th></tr>
+    <tr><td><p>Indifferent</p></td><td>{{ival}}</td></tr>
+    <tr><td><p>For</p></td><td>{{pval}}</td></tr>
+    <tr><td><p>Against</p></td><td>{{nval}}</td></tr>
+	</table>
+    
+
+
+</body>
+
+</html>
